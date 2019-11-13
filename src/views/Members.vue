@@ -7,19 +7,63 @@
 		.max-w-lg
 			p.mt-8 You're viewing a super early alpha, we'll fix the UI in a bit.
 			p.mt-6 The Internet Committe keeps the network stable and makes applications for the people of IIITB.
-		
-		button.inline 
-			a(
-				href="mailto:ic@iiitb.org"
-			) Contact
 
-		button.inline.ml-4
-			routerLink(
-				to="/members"
-			) Members
+		h2.text-3xl.mt-4 Members
+		.flex.flex-wrap.w-full.mt-4.content-start
+			Avatar(
+				name="Aravind Reddy"
+				photo="aravind"
+			)
 
+			Avatar(
+				name="Sai Kiran Reddy",
+				photo="kiran"
+			)
 
-		
+			Avatar(
+				name="Shubhayu Das",
+				photo="s"
+			)
+
+			Avatar(
+				name="Tanmay Joshi",
+				photo="tanmayJoshi"
+			)
+
+			Avatar(
+				name="Saad Patel",
+				photo="saad"
+			)
+
+			Avatar(
+				name="Shalini Singh",
+				photo="s"
+			)
+
+			Avatar(
+				name="Tanmay Jain",
+				photo="t"
+			)
+
+			Avatar(
+				name="Suryansh Jain",
+				photo="s"
+			)
+
+			Avatar(
+				name="Nilesh Kumar",
+				photo="n"
+			)
+
+			Avatar(
+				name="Jhalak Naik",
+				photo="j"
+			)
+
+			Avatar(
+				name="Gautami Gupta",
+				photo="g"
+			)
 	.w-full
 		button.inline 
 			a(
@@ -54,7 +98,7 @@ button:active {
 import Avatar from '@/components/Avatar.vue';
 
 export default {
-	name: 'home',
+	name: 'members',
 	components: {
 		Avatar
 	}
