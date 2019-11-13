@@ -1,0 +1,5 @@
+# Netlify settings for single-page application
+/*    /index.html   200
+
+# Redirect default Netlify subdomain to primary domain
+https://inspiring-davinci-fef560.netlify.com/* https://ic.iiitb.me/:splat 301!
