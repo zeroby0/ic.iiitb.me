@@ -36,6 +36,11 @@
 			)
 
 			Avatar(
+				name="Khaveesh N",
+				photo="k"
+			)
+
+			Avatar(
 				name="Shalini Singh",
 				photo="s"
 			)
