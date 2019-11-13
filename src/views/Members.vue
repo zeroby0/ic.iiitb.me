@@ -70,20 +70,20 @@
 				photo="g"
 			)
 	.w-full
-		button.inline 
-			a(
-				href="https://iiitb.me"
-			) iiitb.ME
+		a(
+			href="https://iiitb.me"
+		)
+			button.inline iiitb.ME
 
-		button.inline.ml-6
-			a(
-				href="https://ic.iiitb.me"
-			) IC | Beta
-
-		button.inline.ml-6
-			a(
-				href="https://menu.iiitb.me"
-			) Menu | Beta
+		a(
+			href="https://ic.iiitb.me"
+		)
+			button.inline.ml-6 IC | Beta
+		
+		a(
+			href="https://menu.iiitb.me"
+		) 
+			button.inline.ml-6 Menu | Beta
 
 		
 </template>
