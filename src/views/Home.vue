@@ -8,33 +8,34 @@
 			p.mt-8 You're viewing a super early alpha, we'll fix the UI in a bit.
 			p.mt-6 The Internet Committe keeps the network stable and makes applications for the people of IIITB.
 		
-		button.inline 
-			a(
-				href="mailto:ic@iiitb.org"
-			) Contact
+		
+		a(
+			href="mailto:ic@iiitb.org"
+		)
+			button.inline Contact
 
-		button.inline.ml-4
-			routerLink(
-				to="/members"
-			) Members
+		routerLink(
+			to="/members"
+		)
+			button.inline.ml-4 Members
 
 
 		
 	.w-full
-		button.inline 
-			a(
-				href="https://iiitb.me"
-			) iiitb.ME
+		a(
+			href="https://iiitb.me"
+		) 
+			button.inline iiitb.ME
+		
+		a(
+			href="https://ic.iiitb.me"
+		)
+			button.inline.ml-6 IC | Beta
 
-		button.inline.ml-6
-			a(
-				href="https://ic.iiitb.me"
-			) IC | Beta
-
-		button.inline.ml-6
-			a(
-				href="https://menu.iiitb.me"
-			) Menu | Beta
+		a(
+			href="https://menu.iiitb.me"
+		) 
+			button.inline.ml-6 Menu | Beta
 
 		
 </template>
